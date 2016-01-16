@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildingCoordinates</key>
+	<array>
+		<dict>
+			<key>New item</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>BuildingName</key>
+	<array>
+		<string>Shedd Aquarium</string>
+		<string>Field Museum</string>
+		<string>Soldier Field</string>
+		<string>Navy Pier</string>
+		<string>Water Tower</string>
+		<string>Trump Tower</string>
+		<string>Museum of Science and Industry</string>
+		<string>John Hancock</string>
+		<string>Wrigley Field</string>
+		<string>Sears Tower</string>
+		<string>Adler Planetarium</string>
+	</array>
+	<key>BuildingImage</key>
+	<array>
+		<string>Shedd_aquarium</string>
+		<string>Field_museum</string>
+		<string>Soldier_field</string>
+		<string>navy_pier</string>
+		<string>twater_tower</string>
+		<string>trump_tower</string>
+		<string>msi</string>
+		<string>John_Hancock</string>
+		<string>Wrigley</string>
+		<string>Sears_Tower</string>
+		<string>Adler</string>
+	</array>
+	<key>BuildingDescription</key>
+	<array>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string>Built in 1914, Wrigley Field houses the hometown favorite Chicago Cubs.</string>
+		<string>The Sears Tower is unfortunately now revered as the Willis Tower. </string>
+		<string>The Adler Planetarium is cool.</string>
+	</array>
+</dict>
+</plist>

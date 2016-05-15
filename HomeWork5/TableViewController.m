@@ -21,6 +21,7 @@
     NSArray *buildingNames = [dict objectForKey:@"BuildingName"];
     NSArray *imageNames = [dict objectForKey:@"BuildingImage"];
     NSArray *buildingDescriptions = [dict objectForKey:@"BuildingDescription"];
+    NSArray *buildingCoordinates = [dict objectForKey:@"BuildingCoordinates"];
     NSMutableArray *buildingArray = [NSMutableArray array];
     
     [buildingNames enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -28,6 +29,10 @@
         newBuilding.name = obj;
         newBuilding.imageName = imageNames[idx];
         newBuilding._description = buildingDescriptions [idx];
+        NSDictionary *coords = buildingCoordinates[idx];
+        
+        newBuilding.coord = CLLocationCoordinate2DMake([coords[@"lat"] doubleValue] , [coords[@"long"] doubleValue]);
+      //  newBuilding.coordinates = buildingCoordinates [idx];
         [buildingArray addObject:newBuilding];
     }];
     
@@ -62,6 +67,9 @@
     cell.textLabel.text = building.name;
     cell.imageView.image = [UIImage imageNamed:building.imageName];
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
+//    CGRect imageFrame = cell.imageView.frame;
+//    imageFrame.size.width = 50;
+//    cell.imageView.frame = imageFrame;
     return cell;
 }
 #pragma mark - Navigation
@@ -74,6 +82,10 @@
         vC.building = self.selectedBuilding;
     }
 
+}
+- (void)dealloc
+{
+    [self.tableView removeFromSuperview];
 }
 @end
 

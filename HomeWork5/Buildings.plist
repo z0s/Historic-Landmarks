@@ -5,8 +5,70 @@
 	<key>BuildingCoordinates</key>
 	<array>
 		<dict>
-			<key>New item</key>
-			<string></string>
+			<key>lat</key>
+			<real>41.8676283</real>
+			<key>long</key>
+			<real>-87.6141708</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8663364</real>
+			<key>long</key>
+			<real>-87.6172541</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8623314</real>
+			<key>long</key>
+			<real>-87.6168299</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8916523</real>
+			<key>long</key>
+			<real>-87.6074071</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.897197405</real>
+			<key>long</key>
+			<real>-87.6244744</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8888318</real>
+			<key>long</key>
+			<real>-87.6264523</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.7905253</real>
+			<key>long</key>
+			<real>-87.5831122</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8988231</real>
+			<key>long</key>
+			<real>-87.6232421</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.9480397</real>
+			<key>long</key>
+			<real>-87.65579200000001</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8788626</real>
+			<key>long</key>
+			<real>-87.6360564</real>
+		</dict>
+		<dict>
+			<key>lat</key>
+			<real>41.8663023</real>
+			<key>long</key>
+			<real>-87.6069727</real>
 		</dict>
 	</array>
 	<key>BuildingName</key>
@@ -34,22 +96,22 @@
 		<string>msi</string>
 		<string>John_Hancock</string>
 		<string>Wrigley</string>
-		<string>Sears_Tower</string>
+		<string>sears_tower</string>
 		<string>Adler</string>
 	</array>
 	<key>BuildingDescription</key>
 	<array>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string>Built in 1914, Wrigley Field houses the hometown favorite Chicago Cubs.</string>
-		<string>The Sears Tower is unfortunately now revered as the Willis Tower. </string>
-		<string>The Adler Planetarium is cool.</string>
+		<string>Shedd Aquarium in an indoor public aquarium that opened May 30, 1930. The aquarium was the first inland aquarium with a permanent saltwater fish collection. Located on Museum Campus, the aquarium showcases a special view of the beloved Chicago skyline.</string>
+		<string>The Field Museum of Natural History is a natural history museum and is one the largest of that kind. The museum maintains a temporary exhibition program of traveling shows along with in-house topical exhibitions. It houses vast collections of gems, meteorites, fossils, and rich anthropological collections and cultural artifacts around the globe. The Field Museum Library contains over 275,000 books, journals, and photo archives focused on a plethora disciplines. </string>
+		<string>Soldier Field opened in 1924, and is the oldest National Football League stadium. It has been home to the Chicago Bears since 1971. In 2003, the interior had extensive renovation but it maxes out an attendance capacity of 61,500 so it is the third smallest stadium in the league.</string>
+		<string>Navy Pier is a 3,300-foot-long pier on the Chicago shoreline of Lake Michigan. Built in 1916 at an exuberant cost of $4.5 million, its main purpose was to serve as a cargo facility. Today, it is one of the most visited attractions in the heart of America and serves as Chicago’s number one tourist attraction. </string>
+		<string>The Chicago Water Tower is located in a small park, Jane M. Byrne Plaza and is the second-oldest water tower in the entire country! It survived the great ominous Chicago Fire thanks to its limestone design. Today, the tower serves as an important landmark of perseverance to locals and features artistic work from aspiring photographers and artists.</string>
+		<string>The Trump Tower was completed in 2009 at a height topping out at 1,389 feet. It towers over the main branch of the Chicago River and is the fourth-tallest building in the Western Hemisphere. Today, the hotel is among seven in Chicago with an elite five-star rating and the building hosts a restaurant that is one of five in Chicago with at least a renowned Michelin Red Guide two-star rating.</string>
+		<string>The Museum of Science and Industry is located in the Hyde Park neighborhood between Lake Michigan and The University of Chicago. It was the former Palace of Fine Arts in the 1893 World’s Columbian Exposition and is the largest science museum in the western hemisphere. Among the diverse and innovative exhibits, the museum features a full-size replica coal mine, a German submarine captured during World War II, a 3,500-square-foot model railroad, the first streamlined stainless-steel passenger train, and the Apollo 8 spacecraft that carried the first humans to orbit the Moon. Today, the Museum is proud to serve attendees and boasts to be the second largest cultural attraction in Chicago. </string>
+		<string>The John Hancock Center, or better known as just John Hancock, is a 100-story, 1,127-foot skyscraper by the game-changing structural engineer Fazlur Rahman Khan. On the 95th floor restaurant, it has a 360 degrees’ view of the city and you can see up to four states. The observatory is Chicago’s only open air SkyWalk. The 44th floor sky lobby features America’s highest indoor swimming pool. Today, during the winter months, you can enjoy a romantic ice skating adventure in the John Hancock, a well guarded secret among the locals.  </string>
+		<string>Built in 1914, Wrigley Field houses the hometown favorite Chicago Cubs. It is located in Wrigleyville, and the ballpark was nicknamed “The Friendly Confines” by Hall of Famer Ernie Banks. The current seating capacity is 42,495 and it is the oldest National League ballpark. Wrigley Field is known for its ivy-covered brick outfield wall, the unusual wind patterns off Lake Michigan, the iconic red marquee over the main entrance, the hand-turned scoreboard, and for being the last major league park to have lights installed for play after dark, with lighting installed in 1988. Today, locals celebrate after each game in the area surrounding bars, restaurants and other establishments.</string>
+		<string>The Sears Tower is unfortunately now officially revered as the Willis Tower. However, locals still commonly refer to the building by its birth name The Sears Tower. Standing at 1,451 feet tall, the building towers over everyone in the loop. In December 2013, the building’s largest tenant is United Airlines, which occupies 20 floors with its headquarters and operations center. Today, more than one million people visits its infamous glass observation deck each year, making it one of the most popular tourist destinations. </string>
+		<string>The Adler Planetarium is a public museum dedicated to the discipline of astronomy and astrophysics. Founded in 1930 by Chicago business leader Max Adler, it is America’s first planetarium. Declared a National Historic Landmark in 1987, the Adler is home to three full size theaters, extensive space science exhibitions, and a significant collection of antique scientific instruments and print materials. Today, the Adler Planetarium houses the Doane Observatory, one of the few public observatories, and the public can see planets, stars, and galaxies in person. </string>
 	</array>
 </dict>
 </plist>

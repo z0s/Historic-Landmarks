@@ -17,18 +17,6 @@
     //[self.buildingImageView sizeToFit];
     //self.buildingImageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
-    
-//- (void)ssetBuilding:(Building *)building
-//    {
-//        [super setBuilding:building];
-//        
-//        CGPoint center = CGPointMake(0, self.view.center.y);
-//        self.
-//        self.descriptionLabel.text = building._description;
-//        [self.descriptionLabel sizeToFit];
-//        
-//        self.title = building.name;
-//    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,5 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc
+{
+    self.buildingImageView.image = nil;
+    [self.buildingImageView removeFromSuperview];
+    self.buildingImageView = nil;
+    
+}
 
 @end

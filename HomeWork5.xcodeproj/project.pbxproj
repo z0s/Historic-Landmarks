@@ -15,9 +15,6 @@
 		6A0F80461C424046000F640B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F80441C424046000F640B /* LaunchScreen.storyboard */; };
 		6A0F80511C424046000F640B /* HomeWork5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F80501C424046000F640B /* HomeWork5Tests.m */; };
 		6A0F805C1C424046000F640B /* HomeWork5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F805B1C424046000F640B /* HomeWork5UITests.m */; };
-		6A0F806A1C424285000F640B /* Sears_Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F80691C424285000F640B /* Sears_Tower.png */; };
-		6A0F806C1C42428B000F640B /* Wrigley.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F806B1C42428B000F640B /* Wrigley.png */; };
-		6A0F806E1C424296000F640B /* Adler.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F806D1C424296000F640B /* Adler.png */; };
 		6A0F80701C4242A7000F640B /* Buildings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F806F1C4242A7000F640B /* Buildings.plist */; };
 		6A0F80731C4242E4000F640B /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F80721C4242E4000F640B /* Building.m */; };
 		6A0F80761C4244EF000F640B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F80751C4244EF000F640B /* TableViewController.m */; };
@@ -31,8 +28,11 @@
 		6A90620D1C4AE09900271B6B /* Soldier_field.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9062051C4AE09900271B6B /* Soldier_field.png */; };
 		6A90620E1C4AE09900271B6B /* trump_tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9062061C4AE09900271B6B /* trump_tower.png */; };
 		6A90620F1C4AE09900271B6B /* twater_tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9062071C4AE09900271B6B /* twater_tower.png */; };
-		6A9062111C4AE24800271B6B /* msi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9062101C4AE24800271B6B /* msi.png */; };
-		6A9062131C4AE24E00271B6B /* navy_pier.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9062121C4AE24E00271B6B /* navy_pier.png */; };
+		6ACB4DB11C4DC7A30045531A /* sears_tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB4DB01C4DC7A30045531A /* sears_tower.png */; };
+		6ACB4DB31C4DCBEC0045531A /* Adler.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB4DB21C4DCBEC0045531A /* Adler.png */; };
+		6ACB4DB51C4DD45B0045531A /* Wrigley.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB4DB41C4DD45B0045531A /* Wrigley.png */; };
+		6ACB4DB71C4E1B0B0045531A /* msi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB4DB61C4E1B0B0045531A /* msi.png */; };
+		6ACB4DB91C4E1BD10045531A /* navy_pier.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB4DB81C4E1BD10045531A /* navy_pier.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A0F80331C424046000F640B /* HomeWork5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0F80331C424046000F640B /* CHI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0F80371C424046000F640B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A0F80391C424046000F640B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A0F803A1C424046000F640B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,9 +69,6 @@
 		6A0F80571C424046000F640B /* HomeWork5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeWork5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0F805B1C424046000F640B /* HomeWork5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork5UITests.m; sourceTree = "<group>"; };
 		6A0F805D1C424046000F640B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A0F80691C424285000F640B /* Sears_Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sears_Tower.png; sourceTree = "<group>"; };
-		6A0F806B1C42428B000F640B /* Wrigley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrigley.png; sourceTree = "<group>"; };
-		6A0F806D1C424296000F640B /* Adler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adler.png; sourceTree = "<group>"; };
 		6A0F806F1C4242A7000F640B /* Buildings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Buildings.plist; sourceTree = "<group>"; };
 		6A0F80711C4242E4000F640B /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
 		6A0F80721C4242E4000F640B /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
@@ -90,8 +87,11 @@
 		6A9062051C4AE09900271B6B /* Soldier_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soldier_field.png; sourceTree = "<group>"; };
 		6A9062061C4AE09900271B6B /* trump_tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trump_tower.png; sourceTree = "<group>"; };
 		6A9062071C4AE09900271B6B /* twater_tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twater_tower.png; sourceTree = "<group>"; };
-		6A9062101C4AE24800271B6B /* msi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msi.png; sourceTree = "<group>"; };
-		6A9062121C4AE24E00271B6B /* navy_pier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navy_pier.png; sourceTree = "<group>"; };
+		6ACB4DB01C4DC7A30045531A /* sears_tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sears_tower.png; sourceTree = "<group>"; };
+		6ACB4DB21C4DCBEC0045531A /* Adler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adler.png; sourceTree = "<group>"; };
+		6ACB4DB41C4DD45B0045531A /* Wrigley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrigley.png; sourceTree = "<group>"; };
+		6ACB4DB61C4E1B0B0045531A /* msi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msi.png; sourceTree = "<group>"; };
+		6ACB4DB81C4E1BD10045531A /* navy_pier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navy_pier.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 		6A0F80341C424046000F640B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A0F80331C424046000F640B /* HomeWork5.app */,
+				6A0F80331C424046000F640B /* CHI.app */,
 				6A0F804C1C424046000F640B /* HomeWork5Tests.xctest */,
 				6A0F80571C424046000F640B /* HomeWork5UITests.xctest */,
 			);
@@ -155,17 +155,17 @@
 				6A0F80441C424046000F640B /* LaunchScreen.storyboard */,
 				6A0F80471C424046000F640B /* Info.plist */,
 				6A0F806F1C4242A7000F640B /* Buildings.plist */,
-				6A9062101C4AE24800271B6B /* msi.png */,
-				6A9062121C4AE24E00271B6B /* navy_pier.png */,
-				6A0F806B1C42428B000F640B /* Wrigley.png */,
+				6ACB4DB61C4E1B0B0045531A /* msi.png */,
+				6ACB4DB01C4DC7A30045531A /* sears_tower.png */,
+				6ACB4DB21C4DCBEC0045531A /* Adler.png */,
+				6ACB4DB81C4E1BD10045531A /* navy_pier.png */,
 				6A9062001C4AE09900271B6B /* Field_museum.png */,
 				6A9062011C4AE09900271B6B /* John_Hancock.png */,
 				6A9062041C4AE09900271B6B /* Shedd_aquarium.png */,
+				6ACB4DB41C4DD45B0045531A /* Wrigley.png */,
 				6A9062051C4AE09900271B6B /* Soldier_field.png */,
 				6A9062061C4AE09900271B6B /* trump_tower.png */,
 				6A9062071C4AE09900271B6B /* twater_tower.png */,
-				6A0F806D1C424296000F640B /* Adler.png */,
-				6A0F80691C424285000F640B /* Sears_Tower.png */,
 				6A0F80361C424046000F640B /* Supporting Files */,
 				6A0F80711C4242E4000F640B /* Building.h */,
 				6A0F80721C4242E4000F640B /* Building.m */,
@@ -222,7 +222,7 @@
 			);
 			name = HomeWork5;
 			productName = HomeWork5;
-			productReference = 6A0F80331C424046000F640B /* HomeWork5.app */;
+			productReference = 6A0F80331C424046000F640B /* CHI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6A0F804B1C424046000F640B /* HomeWork5Tests */ = {
@@ -311,21 +311,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A0F806E1C424296000F640B /* Adler.png in Resources */,
-				6A0F806A1C424285000F640B /* Sears_Tower.png in Resources */,
+				6ACB4DB71C4E1B0B0045531A /* msi.png in Resources */,
 				6A9062081C4AE09900271B6B /* Field_museum.png in Resources */,
 				6A90620E1C4AE09900271B6B /* trump_tower.png in Resources */,
 				6A9062091C4AE09900271B6B /* John_Hancock.png in Resources */,
-				6A9062111C4AE24800271B6B /* msi.png in Resources */,
+				6ACB4DB11C4DC7A30045531A /* sears_tower.png in Resources */,
 				6A90620C1C4AE09900271B6B /* Shedd_aquarium.png in Resources */,
+				6ACB4DB31C4DCBEC0045531A /* Adler.png in Resources */,
 				6A0F80701C4242A7000F640B /* Buildings.plist in Resources */,
 				6A90620F1C4AE09900271B6B /* twater_tower.png in Resources */,
 				6A0F80461C424046000F640B /* LaunchScreen.storyboard in Resources */,
-				6A9062131C4AE24E00271B6B /* navy_pier.png in Resources */,
+				6ACB4DB91C4E1BD10045531A /* navy_pier.png in Resources */,
 				6A0F80431C424046000F640B /* Assets.xcassets in Resources */,
 				6A90620D1C4AE09900271B6B /* Soldier_field.png in Resources */,
 				6A0F80411C424046000F640B /* Main.storyboard in Resources */,
-				6A0F806C1C42428B000F640B /* Wrigley.png in Resources */,
+				6ACB4DB51C4DD45B0045531A /* Wrigley.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +498,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeWork5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MyHW.HomeWork5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyHW.CHI;
+				PRODUCT_NAME = CHI;
 			};
 			name = Debug;
 		};
@@ -509,8 +509,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeWork5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MyHW.HomeWork5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyHW.CHI;
+				PRODUCT_NAME = CHI;
 			};
 			name = Release;
 		};

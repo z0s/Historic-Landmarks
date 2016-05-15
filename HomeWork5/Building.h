@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface Building : NSObject
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *imageName;
 @property (strong, nonatomic) NSString *_description;
-//@property (strong, nonatomic) NSString *description;
+@property (assign, nonatomic) CLLocationCoordinate2D coord;
 
 @end

@@ -10,17 +10,101 @@
 
 @implementation MapViewController
 
-@synthesize mapView;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"map view controller did load");
     
-    mapView.delegate = self;
-    
+    self.mapView.delegate = self;
     
     
+    [self.mapView setRegion:[self.mapView regionThatFits:MKCoordinateRegionMakeWithDistance(self.building.coord, 500, 500)]];
     
+    
+    MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+    [annotation setCoordinate:self.building.coord];
+    [annotation setTitle:self.building.name];
+    [self.mapView addAnnotation:annotation];
+    UISegmentedControl *segmentedControl = [[UISegmentedControl alloc]initWithItems:[NSArray arrayWithObjects:@"Standard",@"Hybrid",@"Satellite",nil]];
+   
+    
+    [segmentedControl setFrame:CGRectMake(50, 20, 250, 30)];
+    segmentedControl.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:(0.5)];
+    [segmentedControl addTarget:self action:@selector(mapTypeChanged:) forControlEvents: UIControlEventValueChanged];
+    segmentedControl.selectedSegmentIndex = 0;
+    [self.mapView addSubview:segmentedControl];
+
+    
+    
+
+}
+
+//- (void)viewDidDisappear:(BOOL)animated
+//{
+//    [super viewDidDisappear:animated];
+//    
+//    //[self applyMapViewMemoryHotFix];
+//}
+
+//- (void)applyMapViewMemoryHotFix{
+//    
+//    switch (self.mapView.mapType) {
+//        case MKMapTypeHybrid:
+//        {
+//            self.mapView.mapType = MKMapTypeStandard;
+//        }
+//            
+//            break;
+//        case MKMapTypeStandard:
+//        {
+//            self.mapView.mapType = MKMapTypeHybrid;
+//        }
+//            
+//            break;
+//        default:
+//            break;
+//    }
+//    [self.mapView removeFromSuperview];
+//    self.mapView = nil;
+//}
+
+- (void)dealloc
+{
+    switch (self.mapView.mapType) {
+        case MKMapTypeHybrid:
+        {
+            self.mapView.mapType = MKMapTypeStandard;
+        }
+            
+            break;
+        case MKMapTypeStandard:
+        {
+            self.mapView.mapType = MKMapTypeHybrid;
+        }
+            
+            break;
+        default:
+            break;
+    }
+
+    self.mapView.delegate = nil;
+    [self.mapView removeFromSuperview];
+    self.mapView = nil;
+}
+
+-(IBAction)mapTypeChanged:(UISegmentedControl *)segmentedControl{
+    switch (segmentedControl.selectedSegmentIndex) {
+        case 0:
+            self.mapView.mapType = MKMapTypeStandard;
+            break;
+        case 1:
+            self.mapView.mapType = MKMapTypeSatelliteFlyover;
+            break;
+        case 2:
+            self.mapView.mapType = MKMapTypeHybridFlyover;
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,43 +113,5 @@
 }
 
 
-@end
 
-//
-//override func loadView() {
-//    mapView = MKMapView()
-//    view = mapView
-//    
-//    let segmentedControl = UISegmentedControl(items: ["Standard","Hybrid","Satellite"])
-//    segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
-//    segmentedControl.selectedSegmentIndex = 0
-//    
-//    segmentedControl.addTarget(self, action: "mapTypeChanged:", forControlEvents: .ValueChanged)
-//    
-//    segmentedControl.translatesAutoresizingMaskIntoConstraints = false
-//    view.addSubview(segmentedControl)
-//    
-//    
-//    let topConstraint = segmentedControl.topAnchor.constraintEqualToAnchor(topLayoutGuide.bottomAnchor, constant: 8)
-//    let margins = view.layoutMarginsGuide
-//    
-//    
-//    let leadingConstraint = segmentedControl.leadingAnchor.constraintEqualToAnchor(margins.leadingAnchor)
-//    let trailingConstraint = segmentedControl.trailingAnchor.constraintEqualToAnchor(margins.trailingAnchor)
-//    
-//    topConstraint.active = true
-//    leadingConstraint.active = true
-//    trailingConstraint.active = true
-//}
-//func mapTypeChanged (segControl: UISegmentedControl) {
-//    switch segControl.selectedSegmentIndex {
-//    case 0:
-//        mapView.mapType = .Standard
-//    case 1:
-//        mapView.mapType = .HybridFlyover
-//    case 2:
-//        mapView.mapType = .SatelliteFlyover
-//    default:
-//        break
-//    }
-//}
+@end

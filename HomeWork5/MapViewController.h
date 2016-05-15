@@ -10,9 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "ViewController.h"
 
-@interface MapViewController : ViewController <MKMapViewDelegate> {
-    IBOutlet MKMapView *mapView;
-}
+@interface MapViewController : ViewController <MKMapViewDelegate>
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
 

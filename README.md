@@ -1,6 +1,6 @@
 # Favorite Buildings
 
-Project developed for College Of Dupage course CIS 2592
+Project developed for College Of Dupage course CIS 2592.
 ## Development environment
 <b>IDE:</b> Xcode 7.0
 <br><b>Language:</b> Swift 1.2

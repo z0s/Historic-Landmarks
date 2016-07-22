@@ -1,4 +1,4 @@
-# Favorite Buildings
+# Historic Landmarks around Chicago
 
 Project developed for College Of Dupage course CIS 2592.
 ## Development environment

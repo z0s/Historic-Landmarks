@@ -3,7 +3,7 @@
 Project developed for College Of Dupage course CIS 2592.
 ## Development environment
 <b>IDE:</b> Xcode 7.0
-<br><b>Language:</b> Swift 1.2
+<b>Language:</b> Swift 1.2
 
 ## Questions?
 Send me an [email](mailto:macs4enthusiasts@gmail.com?subject=FavoriteBuildings).

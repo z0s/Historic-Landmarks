@@ -6,7 +6,7 @@ Project developed for College Of Dupage course CIS 2592.
 <br><b>Language:</b> Swift 1.2
 
 ## Questions?
-Send me an [email](mailto:developi0s5@gmail.com?subject=Favorite Buildings).
+Send me an [email](mailto:developios5@gmail.com?subject=Favorite Buildings).
 
 ##Summary
 This project utilizes UIKit, Foundation, and Mapkit frameworks to display a tableview nested in a tabbar controller. The application 
